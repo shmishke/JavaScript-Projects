@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgb(210, 196, 238);
+}
+button {
+  background-color: rgb(210, 196, 238);
+  border: 0;
+  padding-right: -50px;
+}
+input {
+  color: white;
+  background-color: black;
+  width: 200px;
+}
+input::-webkit-input-placeholder {
+  color: gray;
+}
+input::-moz-placeholder {
+  color: gray;
+}
+input:-ms-input-placeholder {
+  color: gray;
+}
+input::-ms-input-placeholder {
+  color: gray;
+}
+input::placeholder {
+  color: gray;
+}
+iframe {
+  height: 0;
+  padding-top: 30px;
+}
+.card {
+  border: 1px solid black;
+  padding: 20px 0px;
+}
+
+.showIframe {
+  height: 350px;
+}
+body {
+  background-color: rgb(240, 230, 230);
+}

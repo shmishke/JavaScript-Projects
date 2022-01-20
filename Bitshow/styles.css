@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background: #161925;
+  color: #f1d302;
+  width: calc(100vw - 120px);
+}
+
+header,
+footer {
+  background: #161925;
+  height: 5vh;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  margin: 0 120px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  border-top: 1px dotted #f1d302;
+  margin-top: 3rem;
+  color: #717c89;
+}
+footer h4 {
+  opacity: 0.1;
+}
+input {
+  background-color: #717c89;
+  height: 25px;
+  font-size: 18px;
+  transition: width 2s;
+  width: 0px;
+}
+input::-webkit-input-placeholder {
+  color: #f1d302;
+}
+input::-moz-placeholder {
+  color: #f1d302;
+}
+input:-ms-input-placeholder {
+  color: #f1d302;
+}
+input::-ms-input-placeholder {
+  color: #f1d302;
+}
+input::placeholder {
+  color: #f1d302;
+}
+header h3 {
+  color: #e4b363;
+}
+span {
+  color: #ef6461;
+}
+#title {
+  text-align: center;
+  padding: 3rem 0;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 3rem;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 1.6rem;
+}
+.img,
+.info {
+  width: 50%;
+}
+.wrapper {
+  display: flex;
+}
+.img img {
+  width: 50%;
+  margin: 0 25%;
+}
+.cast ul {
+  list-style-type: none;
+}
+.showdetails {
+  padding: 1.7rem 0;
+}
+.container {
+  padding: 0 20%;
+}
+.pretraga {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  width: 250px;
+}
+.result,
+.result li {
+  width: 100%;
+}
+input:focus {
+  background-color: #f1d302;
+  color: black;
+  border: 0;
+}
+.result {
+  background-color: #f1d302;
+  color: black;
+  font-size: 20px;
+}
+.result li {
+  border-top: 1px solid black;
+  color: #717c89;
+}
+.result {
+  list-style-type: none;
+}
+.cast h3,
+.seasons h3,
+.showdetails {
+  color: #ef6461;
+}
+.cast,
+.seasons,
+.details {
+  line-height: 22px;
+}
+input:focus::-webkit-input-placeholder {
+  color: red;
+}
+input:focus::-moz-placeholder {
+  color: red;
+}
+input:focus:-ms-input-placeholder {
+  color: red;
+}
+input:focus::-ms-input-placeholder {
+  color: red;
+}
+input:focus::placeholder {
+  color: #717c89;
+}
+.visibility-none {
+  visibility: hidden;
+}
+.watch-later {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #f1d302;
+  color: black;
+  z-index: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.watch-later::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.watch-later {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.single-card {
+  position: relative;
+}
+.single-card button {
+  position: absolute;
+  right: 66px;
+  top: 0;
+}
+.ttl {
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #161925;
+  color: #f1d302;
+  padding-right: 5px;
+}
+
+.divic {
+  display: flex;
+  width: 250px;
+  padding: 5px;
+  justify-content: space-between;
+  height: 80px;
+  border: 3px solid black;
+  border-top: none;
+}
+
+.divic > button {
+  background-color: red;
+  width: 30px;
+}
+.divic li {
+  align-self: center;
+}
